@@ -1,0 +1,78 @@
+{
+  "dataset_rows": 200,
+  "holdout": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.8,
+      "Precision": 0.9394,
+      "Recall": 0.7561,
+      "F1-Score": 0.8378,
+      "ROC-AUC": 0.9153
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8333,
+      "Precision": 0.9697,
+      "Recall": 0.7805,
+      "F1-Score": 0.8649,
+      "ROC-AUC": 0.8941
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8333,
+      "Precision": 0.9697,
+      "Recall": 0.7805,
+      "F1-Score": 0.8649,
+      "ROC-AUC": 0.9397
+    }
+  ],
+  "cross_validation": [
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy": 0.825,
+      "CV Precision": 0.9011,
+      "CV Recall": 0.8378,
+      "CV F1-Score": 0.8663,
+      "CV ROC-AUC": 0.9123,
+      "CV ROC-AUC (\u00b1Std)": 0.0362
+    },
+    {
+      "Model": "Decision Tree",
+      "CV Accuracy": 0.78,
+      "CV Precision": 0.874,
+      "CV Recall": 0.8013,
+      "CV F1-Score": 0.832,
+      "CV ROC-AUC": 0.7762,
+      "CV ROC-AUC (\u00b1Std)": 0.0931
+    },
+    {
+      "Model": "Random Forest",
+      "CV Accuracy": 0.835,
+      "CV Precision": 0.9204,
+      "CV Recall": 0.8381,
+      "CV F1-Score": 0.8726,
+      "CV ROC-AUC": 0.8977,
+      "CV ROC-AUC (\u00b1Std)": 0.0307
+    }
+  ],
+  "confusion_matrices": {
+    "Logistic Regression": {
+      "tn": 17,
+      "fp": 2,
+      "fn": 10,
+      "tp": 31
+    },
+    "Decision Tree": {
+      "tn": 18,
+      "fp": 1,
+      "fn": 9,
+      "tp": 32
+    },
+    "Random Forest": {
+      "tn": 18,
+      "fp": 1,
+      "fn": 9,
+      "tp": 32
+    }
+  }
+}
